@@ -1,0 +1,311 @@
+body {
+    font-size: 12px;
+    font-family: auto;
+}
+
+/* Start nav bar section */
+.navbar {
+    border-radius: 0px;
+    min-height: 400px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    background-color: #290202;
+    font-family: auto;
+}
+
+.navbar-inverse .navbar-brand  {
+    font-size: 30px;
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-brand p  {
+    font-size: 14px;
+    color: rgba(204,201,201,0.68);
+}
+
+.navbar-brand {
+    padding-top: 0px;
+    padding-right: 0px;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #59ab8c;
+   
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color:#c1b9b9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 15px
+}
+
+.navbar-toggle {
+    margin-top: 0px;
+}
+
+/* Start gallery section */
+
+.gallery {
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+.gallery .left {
+    color:#FFF;
+    opacity: 1;
+    margin-top: 90px;
+}
+
+.gallery .x {
+    position: absolute;
+    top: 200px;
+    color: #59ab8c;
+    opacity: 1;
+}
+
+.gallery .p{
+    font-size: 16px;
+    opacity: 0.6;
+    letter-spacing: 1px;
+}
+
+.gallery .btn {
+    background-color: #59ab8c;
+    color: #FFF
+}
+
+.gallery .img-circle {
+    border: 20px solid #777676;
+}
+
+/* End gallery section */
+
+/* End nav bar section */
+
+/* Start services section */
+
+.services {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #610404;
+    min-height: 600px;
+}
+
+.services .box {
+    background-color: #FFF;
+    padding: 17px;
+    margin-bottom: 20px;
+    border: 2px solid #59ab8c;
+    -webkit-transition: all 1s ease;
+    transition: all 0.8s ease;
+}
+
+.services .box:hover {
+    background-color: #59ab8c;
+    color: #FFF
+}
+
+.h {
+  margin-top:50px;
+  display:flex;
+  background: transparent;
+  color: #FFF;
+}
+.h:before, .h:after {
+  content:'';
+  background: white;
+  flex:1;
+  border: 2px solid #3e3636;
+  margin:auto ;
+}
+
+.services .work {
+    background-color: #3e3636;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.services .full {
+    padding-top: 30px;
+}
+
+.services .three-coloumns {
+    margin-bottom: 20px;
+    border: 6px solid #FFF;
+    overflow: hidden;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.services .three-coloumns:hover{
+    border: 6px solid #59ab8c;
+}
+
+.services .three-coloumns:hover h6{
+    display: none
+}
+
+.services .img {
+    width: 100%;
+}
+
+.services .full .carousel-caption {
+    bottom: 26px;
+    right: 21px;
+    left: 21px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    display: block;
+    background-color: black;
+    letter-spacing: 1px;
+}
+
+/* End services section */
+
+/* Start Footer Section */
+
+.footer {
+    background-color: #3e3636;
+    min-height: 400px;
+    padding-bottom: 30px;
+}
+
+.footer h4 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #FFF;
+}
+
+/* Start Blog Section */
+
+.footer h5 {
+    color: #59ab8c;
+}
+
+.footer .s {
+    padding-right: 0px;
+    padding-bottom: 5px;
+    color: #59ab8c;
+    opacity: 1;
+}
+
+.footer .date {
+    opacity: 0.4;
+    color: #FFF; 
+}
+
+.footer .p {
+    font-size: 16px;
+    opacity: 0.4;
+    color: #FFF;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.footer .back-color {
+    background-color: transparent;
+    color: #59ab8c;
+    padding-left: 0px;
+}
+
+.footer .green {
+    color: #59ab8c
+}
+
+/* End Blog Section */
+
+/* Start quick links */
+
+.footer li {
+    list-style: none;
+    color: #59ab8c;
+}
+
+.footer .space  {
+     padding-top: 10px;
+     padding-bottom: 5px;
+     font-size: 16px;
+}
+
+.footer span {
+    opacity: 0.4;
+    padding-right: 5px;
+    color: #FFF;
+    letter-spacing: 1px
+}
+
+.footer .divider {
+    border: 0.5px solid #FFF;
+    opacity: 0.1;
+}
+/* End quick links */
+
+/* Start latest tweets */
+
+.footer .tweet {
+    padding-bottom: 30px;
+}
+
+.footer .paragraph {
+    font-size: 14px;
+    color: #FFF;
+    line-height: 22px;
+}
+
+.footer .colour {
+    color: #59ab8c;
+    opacity: 1;
+    font-size: 16px;
+}
+
+/* End latest tweets */
+
+/* Start form section */
+
+.footer textarea {
+    height: 75px
+}
+
+.footer input[type="text"],
+.footer textarea {
+    border: none;
+    color: #FFF;
+    background: rgba(37,35,35,0.58);
+    border-radius: 10px;
+}
+
+.footer .submit {
+    border-radius: 10px;
+    background-color: #59ab8c;
+}
+
+/* End form section */
+
+/* End Footer Section */
+
+/* Start Copy Right Section */
+
+.copy-right {
+    background: #3e3636;
+    border-top: 1px solid #020202;
+}
+
+.copy-right p {
+    font-size: 16px;
+    margin: 0px 0 0px;
+    padding-top: 25px;
+    opacity: 0.4;
+    color: #FFF;
+}
+
+.copy-right .position {
+    float: right;
+}
+
+/* End Copy Right Section */
